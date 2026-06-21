@@ -14,12 +14,14 @@
 (function () {
   const btn = document.getElementById('hamburger');
   const drawer = document.getElementById('mobile-drawer');
+  const nav = document.getElementById('navbar');
   if (!btn || !drawer) return;
 
   btn.addEventListener('click', () => {
     const open = drawer.classList.toggle('open');
     btn.classList.toggle('open', open);
     btn.setAttribute('aria-expanded', open);
+    nav.classList.toggle('drawer-open', open);
   });
 
   // close drawer on link click
@@ -28,6 +30,7 @@
       drawer.classList.remove('open');
       btn.classList.remove('open');
       btn.setAttribute('aria-expanded', false);
+      nav.classList.remove('drawer-open');
     });
   });
 })();

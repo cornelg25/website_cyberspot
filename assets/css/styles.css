@@ -166,8 +166,9 @@ button { cursor: pointer; font-family: var(--font); border: none; }
   padding: 1rem 0;
   transition: background var(--transition), backdrop-filter var(--transition), box-shadow var(--transition);
 }
-#navbar.scrolled {
-  background: rgba(13,13,26,0.88);
+#navbar.scrolled,
+#navbar.drawer-open {
+  background: rgba(13,36,80,0.98);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   box-shadow: 0 2px 20px rgba(0,0,0,0.5);
@@ -238,6 +239,13 @@ button { cursor: pointer; font-family: var(--font); border: none; }
   max-height: 0;
   transition: max-height 0.4s ease, padding 0.3s ease;
   padding: 0 0;
+  background: rgba(13,36,80,0.98);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-top: 1px solid rgba(193,39,45,0.2);
+  margin: 0 -4%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 .mobile-drawer.open {
   max-height: 400px;
