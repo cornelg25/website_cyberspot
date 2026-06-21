@@ -144,23 +144,39 @@
   counters.forEach(el => io.observe(el));
 })();
 
-/* ── Contact form handler ── */
+/* ── Contact form handler (Formspree) ── */
 (function () {
   const form = document.getElementById('contact-form');
   if (!form) return;
 
-  form.addEventListener('submit', (e) => {
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
     const btn = form.querySelector('.form-submit .btn');
     btn.textContent = 'Sending…';
     btn.disabled = true;
 
-    // Simulate short delay (replace with Formspree fetch if needed)
-    setTimeout(() => {
-      form.style.display = 'none';
-      const ty = document.getElementById('thank-you');
-      if (ty) ty.classList.add('show');
-    }, 900);
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (response.ok) {
+        form.style.display = 'none';
+        const ty = document.getElementById('thank-you');
+        if (ty) ty.classList.add('show');
+      } else {
+        const data = await response.json();
+        const msg = (data.errors && data.errors.map(e => e.message).join(', '))
+                    || 'Something went wrong. Please try again.';
+        btn.textContent = msg;
+        btn.disabled = false;
+      }
+    } catch (err) {
+      btn.textContent = 'Network error — please try again.';
+      btn.disabled = false;
+    }
   });
 })();
