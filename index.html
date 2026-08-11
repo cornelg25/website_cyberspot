@@ -62,14 +62,15 @@
       </a>
 
       <ul class="nav-links" role="list">
-        <li><a href="#services">Services</a></li>
-        <li><a href="#uvp">Why Cyberspot</a></li>
-        <li><a href="#use-cases">Use Cases</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#services" data-i18n="nav_services">Services</a></li>
+        <li><a href="#uvp" data-i18n="nav_why">Why Cyberspot</a></li>
+        <li><a href="#use-cases" data-i18n="nav_usecases">Use Cases</a></li>
+        <li><a href="#about" data-i18n="nav_about">About</a></li>
+        <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
       </ul>
 
-      <a href="#contact" class="btn btn-primary nav-cta" aria-label="Book a free assessment">Book a Free Assessment</a>
+      <div id="lang-switcher" aria-label="Language selector"></div>
+      <a href="#contact" class="btn btn-primary nav-cta" aria-label="Book a free assessment" data-i18n="nav_cta">Book a Free Assessment</a>
 
       <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobile-drawer">
         <span></span><span></span><span></span>
@@ -79,9 +80,9 @@
 
     <!-- Mobile drawer -->
     <div class="mobile-drawer" id="mobile-drawer" role="navigation" aria-label="Mobile navigation">
-      <a href="#services">Services</a>
-      <a href="#uvp">Why Cyberspot</a>
-      <a href="#use-cases">Use Cases</a>
+      <a href="#services" data-i18n="nav_services">Services</a>
+      <a href="#uvp" data-i18n="nav_why">Why Cyberspot</a>
+      <a href="#use-cases" data-i18n="nav_usecases">Use Cases</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
       <a href="#contact" class="btn btn-primary">Book a Free Assessment</a>
@@ -98,28 +99,25 @@
   <div class="container">
     <div class="hero-content">
 
-      <div class="hero-eyebrow reveal">Top 200 Global SOC · Powered by Provision</div>
+      <div class="hero-eyebrow reveal" data-i18n="hero_eyebrow">Top 200 Global SOC · Powered by Provision</div>
 
       <h1 id="hero-headline" aria-label="Your Full 24/7 Cybersecurity Team. Ready in Days, Not Months."></h1>
 
-      <p class="hero-sub reveal reveal-delay-1">
-        Cyberspot is an EU Security Operations Center delivering enterprise-grade services to
-        companies navigating NIS2, DORA and GDPR compliance — at a fraction of local market costs.
-      </p>
+      <p class="hero-sub reveal reveal-delay-1" data-i18n="hero_sub">Cyberspot is an EU Security Operations Center delivering enterprise-grade services to companies navigating NIS2, DORA and GDPR compliance — at a fraction of local market costs.</p>
 
       <div class="hero-ctas reveal reveal-delay-2">
         <a href="#contact" class="btn btn-primary">
           <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
-          Get your FREE Vulnerability Assessment
+          <span data-i18n="hero_cta1">Get your FREE Vulnerability Assessment</span>
         </a>
         <a href="#services" class="btn btn-outline">
-          Explore Services <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          <span data-i18n="hero_cta2">Explore Services</span> <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
         </a>
       </div>
 
       <div class="scroll-indicator reveal reveal-delay-3" aria-hidden="true">
         <i class="fa-solid fa-chevron-down"></i>
-        <span>Scroll</span>
+        <span data-i18n="hero_scroll">Scroll</span>
       </div>
 
     </div>
@@ -167,10 +165,10 @@
   <div class="container">
 
     <div class="hotspot-header reveal">
-      <span class="section-label">Find Your Fit</span>
-      <h2 class="section-title" id="hotspot-title">What's your hot <span>Cyberspot?</span></h2>
+      <span class="section-label" data-i18n="hotspot_label">Find Your Fit</span>
+      <h2 class="section-title" id="hotspot-title" data-i18n="hotspot_title">What's your hot <span>Cyberspot?</span></h2>
       <p class="section-sub" style="margin:0 auto;">
-        Every organisation has a different starting point. Tell us where you are — we'll tell you exactly what you need.
+        <span data-i18n="hotspot_sub">Every organisation has a different starting point. Tell us where you are — we'll tell you exactly what you need.</span>
       </p>
     </div>
 
@@ -181,10 +179,10 @@
           <i class="fa-solid fa-circle-exclamation"></i>
         </div>
         <div class="hotspot-card-title">
-          Newly in-scope under NIS2 with a limited in-house security team?
+          <span data-i18n="hotspot_c1_title">Newly in-scope under NIS2 with a limited in-house security team?</span>
         </div>
         <div class="hotspot-card-solution">
-          We'll fully cover you with a complete managed security foundation — from day one.
+          <span data-i18n="hotspot_c1_sol">We'll fully cover you with a complete managed security foundation — from day one.</span>
         </div>
         <div class="hotspot-services">
           <span class="hs-tag">MDR</span>
@@ -198,10 +196,10 @@
           <i class="fa-solid fa-moon"></i>
         </div>
         <div class="hotspot-card-title">
-          Your existing security team needs 24/7 coverage extension?
+          <span data-i18n="hotspot_c2_title">Your existing security team needs 24/7 coverage extension?</span>
         </div>
         <div class="hotspot-card-solution">
-          We complement your team seamlessly — covering nights, weekends and holidays with zero gap.
+          <span data-i18n="hotspot_c2_sol">We complement your team seamlessly — covering nights, weekends and holidays with zero gap.</span>
         </div>
         <div class="hotspot-services">
           <span class="hs-tag">MDR</span>
@@ -215,10 +213,10 @@
           <i class="fa-solid fa-building-columns"></i>
         </div>
         <div class="hotspot-card-title">
-          Large Essential entity looking to optimise your SOC?
+          <span data-i18n="hotspot_c3_title">Large Essential entity looking to optimise your SOC?</span>
         </div>
         <div class="hotspot-card-solution">
-          We bring the full stack — maximum coverage, maximum intelligence, full regulatory alignment.
+          <span data-i18n="hotspot_c3_sol">We bring the full stack — maximum coverage, maximum intelligence, full regulatory alignment.</span>
         </div>
         <div class="hotspot-services">
           <span class="hs-tag">MDR</span>
@@ -231,7 +229,7 @@
     </div>
 
     <div class="hotspot-protect reveal">
-      <div class="hotspot-protect-title">Protect More</div>
+      <div class="hotspot-protect-title" data-i18n="hotspot_protect_title">Protect More</div>
       <div class="hotspot-protect-grid">
 
         <div class="hotspot-protect-card">
@@ -239,8 +237,8 @@
             <i class="fa-solid fa-mobile-screen"></i>
           </div>
           <div class="hpc-content">
-            <h4>Company apps on employees' smartphones? Get <span>MOBILE SHIELD ADD-ON</span></h4>
-            <p>We extend SOC coverage to iOS and Android devices seamlessly — the 40% of your attack surface most providers ignore entirely.</p>
+            <h4><span data-i18n="hotspot_p1_title">Company apps on employees' smartphones? Get <span>MOBILE SHIELD ADD-ON</span></span></h4>
+            <p><span data-i18n="hotspot_p1_body">We extend SOC coverage to iOS and Android devices seamlessly — the 40% of your attack surface most providers ignore entirely.</span></p>
           </div>
         </div>
 
@@ -249,8 +247,8 @@
             <i class="fa-solid fa-comments"></i>
           </div>
           <div class="hpc-content">
-            <h4>Your business is unique — <span>tell us your cyber challenges</span></h4>
-            <p>We'll help with the best advice from the best professionals. No generic packages — a solution shaped around your specific risk profile.</p>
+            <h4><span data-i18n="hotspot_p2_title">Your business is unique — <span>tell us your cyber challenges</span></span></h4>
+            <p><span data-i18n="hotspot_p2_body">We'll help with the best advice from the best professionals. No generic packages — a solution shaped around your specific risk profile.</span></p>
           </div>
         </div>
 
@@ -268,8 +266,8 @@
     <div class="nis2-grid">
 
       <div class="nis2-text reveal">
-        <span class="section-label">Regulatory Urgency</span>
-        <h2 class="section-title" id="nis2-title">Are You a NIS2 Essential or Important Entity?</h2>
+        <span class="section-label" data-i18n="nis2_label">Regulatory Urgency</span>
+        <h2 class="section-title" id="nis2-title" data-i18n="nis2_title">Are You a NIS2 Essential or Important Entity?</h2>
         <p class="section-sub">
           The NIS2 Directive dramatically expands the scope of mandatory cybersecurity requirements
           across the EU. If your organisation operates in a critical sector, you are likely already
@@ -291,7 +289,7 @@
       </div>
 
       <div class="nis2-card reveal reveal-delay-2">
-        <h3>Covered Sectors Under NIS2</h3>
+        <h3 data-i18n="nis2_card_title">Covered Sectors Under NIS2</h3>
         <ul class="nis2-list" role="list">
           <li>
             <i class="fa-solid fa-bolt" aria-hidden="true"></i>
@@ -331,8 +329,8 @@
   <div class="container">
 
     <div class="services-header reveal">
-      <span class="section-label">SOC Services</span>
-      <h2 class="section-title" id="services-title">Comprehensive Security Operations</h2>
+      <span class="section-label" data-i18n="services_label">SOC Services</span>
+      <h2 class="section-title" id="services-title" data-i18n="services_title">Comprehensive Security Operations</h2>
       <p class="section-sub">
         Four core service pillars, each deployable as a standalone solution or combined
         into a fully managed security programme.
@@ -471,8 +469,8 @@
   <div class="container">
 
     <div class="uvp-header reveal">
-      <span class="section-label">Why Cyberspot</span>
-      <h2 class="section-title" id="uvp-title">Why Cyberspot Is Different</h2>
+      <span class="section-label" data-i18n="uvp_label">Why Cyberspot</span>
+      <h2 class="section-title" id="uvp-title" data-i18n="uvp_title">Why Cyberspot Is Different</h2>
       <p class="section-sub">
         Three capabilities that no equivalent EU provider offers under one roof.
       </p>
@@ -484,7 +482,7 @@
         <div class="uvp-icon" aria-hidden="true">
           <i class="fa-solid fa-mobile-screen"></i>
         </div>
-        <h3>Mobile Device SOC Coverage</h3>
+        <h3 data-i18n="uvp1_title">Mobile Device SOC Coverage</h3>
         <p>
           The only SOC service that extends full monitoring to iOS and Android devices.
           Most companies have zero visibility into 40% of their attack surface. We fix that.
@@ -495,7 +493,7 @@
         <div class="uvp-icon" aria-hidden="true">
           <i class="fa-solid fa-moon"></i>
         </div>
-        <h3>Nightshift Extension for Existing SOC Teams</h3>
+        <h3 data-i18n="uvp2_title">Nightshift Extension for Existing SOC Teams</h3>
         <p>
           Already have an internal security team? We cover nights, weekends and holidays —
           the 128 hours per week when attackers prefer to strike. Seamless handoff, documented
@@ -507,7 +505,7 @@
         <div class="uvp-icon" aria-hidden="true">
           <i class="fa-solid fa-euro-sign"></i>
         </div>
-        <h3>EU-Competitive Pricing</h3>
+        <h3 data-i18n="uvp3_title">EU-Competitive Pricing</h3>
         <p>
           Enterprise-grade SOC services at 30–50% less than equivalent local EU providers,
           without compromising quality. Top 200 globally ranked. Operational in weeks.
@@ -525,8 +523,8 @@
   <div class="container">
 
     <div class="how-header reveal">
-      <span class="section-label">Implementation</span>
-      <h2 class="section-title" id="how-title">Up and Running in Under 5 Weeks</h2>
+      <span class="section-label" data-i18n="how_label">Implementation</span>
+      <h2 class="section-title" id="how-title" data-i18n="how_title">Up and Running in Under 5 Weeks</h2>
       <p class="section-sub" style="margin:0 auto;">
         A structured, repeatable onboarding process refined across dozens of EU deployments.
       </p>
@@ -536,29 +534,29 @@
 
       <div class="timeline-step reveal" role="listitem">
         <div class="step-num" aria-hidden="true">1</div>
-        <div class="step-duration">1–2 Weeks</div>
-        <div class="step-title">Project Design</div>
+        <div class="step-duration" data-i18n="step1_dur">1–2 Weeks</div>
+        <div class="step-title" data-i18n="step1_title">Project Design</div>
         <p class="step-desc">Discovery workshop, scope definition, architecture planning and regulatory mapping.</p>
       </div>
 
       <div class="timeline-step reveal reveal-delay-1" role="listitem">
         <div class="step-num" aria-hidden="true">2</div>
-        <div class="step-duration">1–3 Weeks</div>
-        <div class="step-title">Project Build</div>
+        <div class="step-duration" data-i18n="step2_dur">1–3 Weeks</div>
+        <div class="step-title" data-i18n="step2_title">Project Build</div>
         <p class="step-desc">Platform deployment, policy configuration and machine learning mode initialisation.</p>
       </div>
 
       <div class="timeline-step reveal reveal-delay-2" role="listitem">
         <div class="step-num" aria-hidden="true">3</div>
-        <div class="step-duration">Ongoing</div>
-        <div class="step-title">Service Run</div>
+        <div class="step-duration" data-i18n="step3_dur">Ongoing</div>
+        <div class="step-title" data-i18n="step3_title">Service Run</div>
         <p class="step-desc">24/7 monitoring begins. Bi-weekly operational meetings. Monthly governance reviews.</p>
       </div>
 
       <div class="timeline-step reveal reveal-delay-3" role="listitem">
         <div class="step-num" aria-hidden="true">4</div>
-        <div class="step-duration">Always</div>
-        <div class="step-title">Continuous Improvement</div>
+        <div class="step-duration" data-i18n="step4_dur">Always</div>
+        <div class="step-title" data-i18n="step4_title">Continuous Improvement</div>
         <p class="step-desc">Detection tuning, new threat coverage, KPI tracking and quarterly business reviews.</p>
       </div>
 
@@ -573,8 +571,8 @@
   <div class="container">
 
     <div class="use-cases-header reveal">
-      <span class="section-label">Proven Results</span>
-      <h2 class="section-title" id="use-cases-title">Real Outcomes for EU Organisations</h2>
+      <span class="section-label" data-i18n="cases_label">Proven Results</span>
+      <h2 class="section-title" id="use-cases-title" data-i18n="cases_title">Real Outcomes for EU Organisations</h2>
       <p class="section-sub" style="margin:0 auto;">
         See how we've delivered measurable security improvements across finance, banking and retail.
       </p>
@@ -692,27 +690,27 @@
   <div class="container">
 
     <div class="compliance-header reveal">
-      <span class="section-label">Regulatory Alignment</span>
-      <h2 class="section-title" id="compliance-title">Built for EU Regulatory Compliance</h2>
+      <span class="section-label" data-i18n="comp_label">Regulatory Alignment</span>
+      <h2 class="section-title" id="compliance-title" data-i18n="comp_title">Built for EU Regulatory Compliance</h2>
     </div>
 
     <div class="compliance-grid">
 
       <div class="comp-card reveal">
         <div class="comp-badge" aria-hidden="true">⚖️</div>
-        <h3>NIS2 Directive</h3>
+        <h3 data-i18n="comp1_title">NIS2 Directive</h3>
         <p>Article 21 security measures alignment — incident handling, business continuity, supply chain security and 24/7 monitoring.</p>
       </div>
 
       <div class="comp-card reveal reveal-delay-1">
         <div class="comp-badge" aria-hidden="true">🏦</div>
-        <h3>DORA Framework</h3>
+        <h3 data-i18n="comp2_title">DORA Framework</h3>
         <p>ICT risk management for financial entities — operational resilience, third-party risk management and incident reporting.</p>
       </div>
 
       <div class="comp-card reveal reveal-delay-2">
         <div class="comp-badge" aria-hidden="true">🛡️</div>
-        <h3>GDPR</h3>
+        <h3 data-i18n="comp3_title">GDPR</h3>
         <p>Data protection and breach notification readiness — 72-hour notification capability and data processing security controls.</p>
       </div>
 
@@ -734,8 +732,8 @@
     <div class="about-grid">
 
       <div class="about-text reveal">
-        <span class="section-label">Who We Are</span>
-        <h2 class="section-title" id="about-title">Protecting Europe's Essential Infrastructure</h2>
+        <span class="section-label" data-i18n="about_label">Who We Are</span>
+        <h2 class="section-title" id="about-title" data-i18n="about_title">Protecting Europe's Essential Infrastructure</h2>
         <p class="section-sub">
           Cyberspot is a Romanian-based cybersecurity reseller specialising in managed SOC services for
           Essential and Important entities under the NIS2 Directive. We partner exclusively with
@@ -756,7 +754,7 @@
         </div>
         <div class="about-countries">
           <i class="fa-solid fa-earth-europe" aria-hidden="true"></i>
-          All EU Member States · Worldwide Coverage
+          <span data-i18n="about_countries">All EU Member States · Worldwide Coverage</span>
         </div>
       </div>
 
@@ -799,8 +797,8 @@
     <div class="contact-inner">
 
       <div class="contact-header reveal">
-        <span class="section-label">Free Assessment</span>
-        <h2 class="section-title" id="contact-title">Get your FREE Vulnerability Assessment</h2>
+        <span class="section-label" data-i18n="contact_label">Free Assessment</span>
+        <h2 class="section-title" id="contact-title" data-i18n="contact_title">Get your FREE Vulnerability Assessment</h2>
         <p class="section-sub">
           You will obtain from us an initial vulnerability assessment so you know where to focus
           and what SOC services you actually need — with no commitment required.
@@ -809,15 +807,15 @@
         <div class="contact-trust" style="margin-top:2rem;">
           <div class="trust-item">
             <div class="t-icon" aria-hidden="true">🔒</div>
-            <span>No commitment required</span>
+            <span data-i18n="trust1">No commitment required</span>
           </div>
           <div class="trust-item">
             <div class="t-icon" aria-hidden="true">⚡</div>
-            <span>Response within 24 hours</span>
+            <span data-i18n="trust2">Response within 24 hours</span>
           </div>
           <div class="trust-item">
             <div class="t-icon" aria-hidden="true">🎯</div>
-            <span>Tailored to your sector</span>
+            <span data-i18n="trust3">Tailored to your sector</span>
           </div>
         </div>
       </div>
@@ -828,25 +826,25 @@
 
           <div class="form-row">
             <div class="form-group">
-              <label for="f-name">Full Name *</label>
+              <label for="f-name" data-i18n="form_name">Full Name</label> *
               <input type="text" id="f-name" name="name" placeholder="Jane Smith" required autocomplete="name" />
             </div>
             <div class="form-group">
-              <label for="f-company">Company Name *</label>
+              <label for="f-company" data-i18n="form_company">Company Name</label> *
               <input type="text" id="f-company" name="company" placeholder="Acme Corp" required />
             </div>
           </div>
 
           <div class="form-group">
-            <label for="f-email">Work Email *</label>
+            <label for="f-email" data-i18n="form_email">Work Email</label> *
             <input type="email" id="f-email" name="email" placeholder="jane@acme.com" required autocomplete="email" />
           </div>
 
           <div class="form-row">
             <div class="form-group">
-              <label for="f-country">Country *</label>
+              <label for="f-country" data-i18n="form_country">Country</label> *
               <select id="f-country" name="country" required>
-                <option value="">Select country</option>
+                <option value="" data-i18n="form_country_default">Select country</option>
                 <option>Austria</option>
                 <option>Belgium</option>
                 <option>Bulgaria</option>
@@ -878,9 +876,9 @@
               </select>
             </div>
             <div class="form-group">
-              <label for="f-size">Company Size *</label>
+              <label for="f-size" data-i18n="form_size">Company Size</label> *
               <select id="f-size" name="size" required>
-                <option value="">Select size</option>
+                <option value="" data-i18n="form_size_default">Select size</option>
                 <option>50–100 employees</option>
                 <option>100–250 employees</option>
                 <option>250–1,000 employees</option>
@@ -890,14 +888,14 @@
           </div>
 
           <div class="form-group">
-            <label for="f-message">Message (optional)</label>
-            <textarea id="f-message" name="message" placeholder="Tell us about your current security setup or specific concerns…"></textarea>
+            <label for="f-message" data-i18n="form_message">Message (optional)</label>
+            <textarea id="f-message" name="message" data-i18n-placeholder="form_message_placeholder" placeholder="Tell us about your current security setup or specific concerns…"></textarea>
           </div>
 
           <div class="form-submit">
             <button type="submit" class="btn btn-primary">
               <i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
-              Book My Free Assessment
+              <span data-i18n="form_submit">Book My Free Assessment</span>
             </button>
           </div>
 
@@ -905,8 +903,8 @@
 
         <div class="thank-you" id="thank-you" role="alert" aria-live="polite">
           <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
-          <h3>You're booked in!</h3>
-          <p>We'll be in touch within 24 hours to schedule your initial Vulnerability assessment.</p>
+          <h3 data-i18n="thankyou_title">You're booked in!</h3>
+          <p data-i18n="thankyou_body">We'll be in touch within 24 hours to schedule your vulnerability assessment.</p>
         </div>
 
       </div>
@@ -927,7 +925,7 @@
 
       <div class="footer-brand">
         <img src="assets/images/logo-red.png" alt="Cyberspot logo" height="48" />
-        <p class="footer-tagline">Protecting Europe's Essential Infrastructure. 24/7 SOC services aligned with NIS2, DORA and GDPR.</p>
+        <p class="footer-tagline" data-i18n="footer_tagline">Protecting Europe's Essential Infrastructure. 24/7 SOC services aligned with NIS2, DORA and GDPR.</p>
       </div>
 
       <div class="footer-col">
@@ -944,9 +942,9 @@
         <h4>Company</h4>
         <ul role="list">
           <li><a href="#about">About Cyberspot</a></li>
-          <li><a href="#use-cases">Use Cases</a></li>
+          <li><a href="#use-cases" data-i18n="nav_usecases">Use Cases</a></li>
           <li><a href="#compliance">Compliance</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
         </ul>
       </div>
 
@@ -970,10 +968,10 @@
     </div>
 
     <div class="footer-bottom">
-      <span>© 2025 Cyberspot. All rights reserved.</span>
+      <span data-i18n="footer_copy">© 2025 Cyberspot. All rights reserved.</span>
       <div class="footer-bottom-links">
-        <a href="#">Privacy Policy</a>
-        <a href="#">Cookie Policy</a>
+        <a href="#" data-i18n="footer_privacy">Privacy Policy</a>
+        <a href="#" data-i18n="footer_cookie">Cookie Policy</a>
       </div>
     </div>
 
@@ -981,6 +979,7 @@
 </footer>
 
 <!-- Scripts -->
+<script src="assets/js/i18n.js" defer></script>
 <script src="assets/js/main.js" defer></script>
 
 </body>

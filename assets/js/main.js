@@ -40,20 +40,31 @@
   const el = document.getElementById('hero-headline');
   if (!el) return;
 
-  const text = "Your Full 24/7 Cybersecurity Team. Ready in Days, Not Months.";
-  let i = 0;
-  el.innerHTML = '<span class="cursor"></span>';
+  let typeTimer = null;
 
-  function type() {
-    if (i < text.length) {
-      const cursor = el.querySelector('.cursor');
-      el.insertBefore(document.createTextNode(text[i]), cursor);
-      i++;
-      setTimeout(type, i < 10 ? 60 : 38);
+  function runTypewriter(text) {
+    if (typeTimer) clearTimeout(typeTimer);
+    el.innerHTML = '<span class="cursor"></span>';
+    let i = 0;
+
+    function type() {
+      if (i < text.length) {
+        const cursor = el.querySelector('.cursor');
+        if (cursor) el.insertBefore(document.createTextNode(text[i]), cursor);
+        i++;
+        typeTimer = setTimeout(type, i < 10 ? 60 : 38);
+      }
     }
+    typeTimer = setTimeout(type, 300);
   }
-  // small delay before starting
-  setTimeout(type, 500);
+
+  // Initial run
+  runTypewriter("Your Full 24/7 Cybersecurity Team. Ready in Days, Not Months.");
+
+  // Re-run when language changes
+  window.I18N_onLangChange = function(lang, t) {
+    if (t && t.hero_headline) runTypewriter(t.hero_headline);
+  };
 })();
 
 /* ── Scroll-reveal via Intersection Observer ── */
