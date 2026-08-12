@@ -6,11 +6,20 @@
 const I18N = (function () {
 
   /* ── Supported languages ── */
+  /* Flags are inline SVG (data URI) so they render on Windows,
+     which does not support regional-indicator flag emoji. */
+  const FLAGS = {
+    gb: 'data:image/svg+xml;base64,' + btoa('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30" width="60" height="30"><clipPath id="s"><path d="M0,0 v30 h60 v-30 z"/></clipPath><clipPath id="t"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/></clipPath><g clip-path="url(#s)"><path d="M0,0 v30 h60 v-30 z" fill="#012169"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#t)" stroke="#C8102E" stroke-width="4"/><path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/><path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6"/></g></svg>'),
+    fr: 'data:image/svg+xml;base64,' + btoa('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2" width="60" height="40"><rect width="1" height="2" x="0" fill="#0055A4"/><rect width="1" height="2" x="1" fill="#fff"/><rect width="1" height="2" x="2" fill="#EF4135"/></svg>'),
+    nl: 'data:image/svg+xml;base64,' + btoa('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2" width="60" height="40"><rect width="3" height="2" fill="#fff"/><rect width="3" height="0.667" y="0" fill="#AE1C28"/><rect width="3" height="0.667" y="1.333" fill="#21468B"/></svg>'),
+    ro: 'data:image/svg+xml;base64,' + btoa('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2" width="60" height="40"><rect width="1" height="2" x="0" fill="#002B7F"/><rect width="1" height="2" x="1" fill="#FCD116"/><rect width="1" height="2" x="2" fill="#CE1126"/></svg>')
+  };
+
   const LANGUAGES = {
-    en: { label: 'EN', name: 'English',    flag: '🇬🇧' },
-    fr: { label: 'FR', name: 'Français',   flag: '🇫🇷' },
-    nl: { label: 'NL', name: 'Nederlands', flag: '🇳🇱' },
-    ro: { label: 'RO', name: 'Română',     flag: '🇷🇴' }
+    en: { label: 'EN', name: 'English',    flag: FLAGS.gb },
+    fr: { label: 'FR', name: 'Français',   flag: FLAGS.fr },
+    nl: { label: 'NL', name: 'Nederlands', flag: FLAGS.nl },
+    ro: { label: 'RO', name: 'Română',     flag: FLAGS.ro }
   };
 
   /* ── Country → language map ── */
@@ -80,7 +89,7 @@ const I18N = (function () {
   function updateSwitcherUI(lang) {
     const current = document.getElementById('lang-current');
     if (current) {
-      current.innerHTML = `${LANGUAGES[lang].flag} ${LANGUAGES[lang].label} <i class="fa-solid fa-chevron-down" style="font-size:0.65rem;margin-left:3px;opacity:0.7;"></i>`;
+      current.innerHTML = `<img class="lang-flag-img" src="${LANGUAGES[lang].flag}" alt="" /> ${LANGUAGES[lang].label} <i class="fa-solid fa-chevron-down" style="font-size:0.65rem;margin-left:3px;opacity:0.7;"></i>`;
     }
     document.querySelectorAll('.lang-option').forEach(opt => {
       opt.classList.toggle('active', opt.dataset.lang === lang);
@@ -125,13 +134,13 @@ const I18N = (function () {
 
     wrapper.innerHTML = `
       <button id="lang-current" class="lang-current" aria-haspopup="listbox" aria-expanded="false" aria-label="Select language">
-        🇬🇧 EN <i class="fa-solid fa-chevron-down" style="font-size:0.65rem;margin-left:3px;opacity:0.7;"></i>
+        <img class="lang-flag-img" src="${LANGUAGES.en.flag}" alt="" /> EN <i class="fa-solid fa-chevron-down" style="font-size:0.65rem;margin-left:3px;opacity:0.7;"></i>
       </button>
       <ul class="lang-dropdown" role="listbox" aria-label="Language options">
         ${Object.entries(LANGUAGES).map(([code, l]) => `
           <li>
             <button class="lang-option" data-lang="${code}" role="option" aria-selected="false">
-              <span class="lang-flag">${l.flag}</span>
+              <img class="lang-flag-img" src="${l.flag}" alt="" />
               <span class="lang-name">${l.label}</span>
             </button>
           </li>
