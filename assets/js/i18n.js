@@ -80,7 +80,7 @@ const I18N = (function () {
   function updateSwitcherUI(lang) {
     const current = document.getElementById('lang-current');
     if (current) {
-      current.innerHTML = `${LANGUAGES[lang].flag} ${LANGUAGES[lang].label} <i class="fa-solid fa-chevron-down" style="font-size:0.65rem;margin-left:3px;"></i>`;
+      current.innerHTML = `${LANGUAGES[lang].flag} ${LANGUAGES[lang].label} <i class="fa-solid fa-chevron-down" style="font-size:0.65rem;margin-left:3px;opacity:0.7;"></i>`;
     }
     document.querySelectorAll('.lang-option').forEach(opt => {
       opt.classList.toggle('active', opt.dataset.lang === lang);
@@ -125,15 +125,14 @@ const I18N = (function () {
 
     wrapper.innerHTML = `
       <button id="lang-current" class="lang-current" aria-haspopup="listbox" aria-expanded="false" aria-label="Select language">
-        🇬🇧 EN <i class="fa-solid fa-chevron-down" style="font-size:0.65rem;margin-left:3px;"></i>
+        🇬🇧 EN <i class="fa-solid fa-chevron-down" style="font-size:0.65rem;margin-left:3px;opacity:0.7;"></i>
       </button>
       <ul class="lang-dropdown" role="listbox" aria-label="Language options">
         ${Object.entries(LANGUAGES).map(([code, l]) => `
           <li>
             <button class="lang-option" data-lang="${code}" role="option" aria-selected="false">
               <span class="lang-flag">${l.flag}</span>
-              <span class="lang-name">${l.name}</span>
-              <span class="lang-label">${l.label}</span>
+              <span class="lang-name">${l.label}</span>
             </button>
           </li>
         `).join('')}
