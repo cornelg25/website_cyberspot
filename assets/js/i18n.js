@@ -98,6 +98,12 @@ const I18N = (function () {
 
   /* ── Detect language from IP ── */
   async function detectFromIP() {
+    // 0. URL ?lang= parameter takes top priority (used by landing-page CTAs)
+    try {
+      const urlLang = new URLSearchParams(window.location.search).get('lang');
+      if (urlLang && LANGUAGES[urlLang.toLowerCase()]) return urlLang.toLowerCase();
+    } catch (e) { /* ignore */ }
+
     // 1. Check localStorage preference first
     const saved = localStorage.getItem('cs_lang');
     if (saved && LANGUAGES[saved]) return saved;
