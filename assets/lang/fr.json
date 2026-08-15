@@ -171,5 +171,14 @@
   "ranking_title": "SOC Classé #106 Mondialement",
   "ranking_body": "Cyberspot collabore exclusivement avec Provision, un Centre d'Opérations de Sécurité classé #106 parmi les 250 meilleurs fournisseurs de services de sécurité gérés au monde dans le classement MSSP Alert Top 250 de 2025 — un classement mondial indépendant et reconnu par l'industrie.",
   "ranking_verify": "Vérifier sur MSSP Alert",
-  "ranking_note": "Ouvre le classement officiel MSSP Alert dans un nouvel onglet."
+  "ranking_note": "Ouvre le classement officiel MSSP Alert dans un nouvel onglet.",
+  "uc_stat1": "Détection des Menaces Plus Rapide",
+  "uc_stat2": "Réduction des Faux Négatifs",
+  "uc_stat3": "Taux de Faux Positifs",
+  "uc_stat4": "Cartes Compromises Identifiées / Mois",
+  "uc_stat5": "Précision des Alertes",
+  "uc_stat6": "Jour — Suppression Moyenne de Phishing",
+  "uc_stat7": "Min Temps Moyen d'Analyse des Menaces",
+  "uc_stat8": "Réduction des Faux Positifs",
+  "uc_stat9": "Incidents Nécessitant Clarification"
 }

@@ -166,8 +166,9 @@
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
+    const t = (window.I18N && I18N.getTranslations) ? I18N.getTranslations() : {};
     const btn = form.querySelector('.form-submit .btn');
-    btn.textContent = 'Sending…';
+    btn.textContent = t.form_sending || 'Sending…';
     btn.disabled = true;
 
     try {
@@ -184,12 +185,12 @@
       } else {
         const data = await response.json();
         const msg = (data.errors && data.errors.map(e => e.message).join(', '))
-                    || 'Something went wrong. Please try again.';
+                    || t.form_error || 'Something went wrong. Please try again.';
         btn.textContent = msg;
         btn.disabled = false;
       }
     } catch (err) {
-      btn.textContent = 'Network error — please try again.';
+      btn.textContent = t.form_error || 'Network error — please try again.';
       btn.disabled = false;
     }
   });

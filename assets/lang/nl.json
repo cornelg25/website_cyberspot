@@ -171,5 +171,14 @@
   "ranking_title": "#106 Wereldwijd Gerangschikte SOC",
   "ranking_body": "Cyberspot werkt uitsluitend samen met Provision, een Security Operations Center gerangschikt op #106 onder de Top 250 Managed Security Service Providers ter wereld in de MSSP Alert Top 250 van 2025 — een onafhankelijke, door de sector erkende wereldwijde ranglijst.",
   "ranking_verify": "Verifieer op MSSP Alert",
-  "ranking_note": "Opent de officiële MSSP Alert-ranglijst in een nieuw tabblad."
+  "ranking_note": "Opent de officiële MSSP Alert-ranglijst in een nieuw tabblad.",
+  "uc_stat1": "Snellere Dreigingsdetectie",
+  "uc_stat2": "Reductie van Valse Negatieven",
+  "uc_stat3": "Percentage Valse Positieven",
+  "uc_stat4": "Gecompromitteerde Kaarten Geïdentificeerd / Maand",
+  "uc_stat5": "Nauwkeurigheid van Waarschuwingen",
+  "uc_stat6": "Dag — Gemiddelde Phishing-verwijdering",
+  "uc_stat7": "Min Gemiddelde Dreigingsanalysetijd",
+  "uc_stat8": "Reductie van Valse Positieven",
+  "uc_stat9": "Incidenten die Verduidelijking Vereisen"
 }

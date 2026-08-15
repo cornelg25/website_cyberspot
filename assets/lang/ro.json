@@ -171,5 +171,14 @@
   "ranking_title": "SOC Clasat #106 Global",
   "ranking_body": "Cyberspot colaborează exclusiv cu Provision, un Centru de Operațiuni de Securitate clasat #106 printre primii 250 de furnizori de servicii de securitate gestionate din lume în clasamentul MSSP Alert Top 250 din 2025 — un clasament global independent și recunoscut în industrie.",
   "ranking_verify": "Verificați pe MSSP Alert",
-  "ranking_note": "Deschide clasamentul oficial MSSP Alert într-o filă nouă."
+  "ranking_note": "Deschide clasamentul oficial MSSP Alert într-o filă nouă.",
+  "uc_stat1": "Detectare Mai Rapidă a Amenințărilor",
+  "uc_stat2": "Reducerea Falselor Negative",
+  "uc_stat3": "Rata Falselor Pozitive",
+  "uc_stat4": "Carduri Compromise Identificate / Lună",
+  "uc_stat5": "Acuratețea Alertelor",
+  "uc_stat6": "Zi — Eliminare Medie Phishing",
+  "uc_stat7": "Min Timp Mediu Analiză Amenințări",
+  "uc_stat8": "Reducerea Falselor Pozitive",
+  "uc_stat9": "Incidente Care Necesită Clarificare"
 }
