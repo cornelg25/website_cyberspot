@@ -5,7 +5,6 @@
   "nav_about": "Over Ons",
   "nav_contact": "Contact",
   "nav_cta": "Gratis Beoordeling Boeken",
-
   "hero_eyebrow": "Top 200 Wereldwijd SOC · Aangedreven door Provision",
   "hero_headline": "Uw Volledige 24/7 Cybersecurityteam. Operationeel in Dagen, Niet Maanden.",
   "hero_sub": "Cyberspot is een Europees Security Operations Center dat diensten op ondernemingsniveau levert aan bedrijven die navigeren door NIS2-, DORA- en AVG-naleving — voor een fractie van de lokale marktkosten.",
@@ -13,7 +12,6 @@
   "hero_cta2": "Diensten Ontdekken",
   "hero_badge": "🏆 Top 200 Wereldwijd SOC\nAangedreven door Provision",
   "hero_scroll": "Scrollen",
-
   "hotspot_label": "Vind Uw Profiel",
   "hotspot_title": "Wat is uw Cyberspot-behoefte?",
   "hotspot_sub": "Elke organisatie heeft een ander startpunt. Vertel ons waar u staat — wij vertellen u precies wat u nodig heeft.",
@@ -28,7 +26,6 @@
   "hotspot_p1_body": "Wij breiden SOC-dekking naadloos uit naar iOS- en Android-apparaten — de 40% van uw aanvalsoppervlak die de meeste providers volledig negeren.",
   "hotspot_p2_title": "Uw bedrijf is uniek — <span>vertel ons uw cybervraagstukken</span>",
   "hotspot_p2_body": "Wij helpen u met het beste advies van de beste professionals. Geen generieke pakketten — een oplossing afgestemd op uw specifieke risicoprofiel.",
-
   "nis2_label": "Regelgevende Urgentie",
   "nis2_title": "Bent U een NIS2 Essentiële of Belangrijke Entiteit?",
   "nis2_sub": "De NIS2-richtlijn breidt het toepassingsgebied van verplichte cybersecurityvereisten in de hele EU aanzienlijk uit. Als uw organisatie actief is in een kritieke sector, bent u waarschijnlijk al verplicht robuuste beveiligingsmaatregelen te implementeren — of zware sancties te riskeren.",
@@ -42,7 +39,6 @@
   "nis2_s4": "Transport — Lucht, Rail, Water, Weg",
   "nis2_s5": "Digitale Infrastructuur — Cloud, DNS, Datacenters",
   "nis2_s6": "Voedsel & Water — Levering & Distributie",
-
   "services_label": "SOC Diensten",
   "services_title": "Uitgebreide Beveiligingsoperaties",
   "services_sub": "Vier kerndienstpijlers, elk inzetbaar als zelfstandige oplossing of gecombineerd tot een volledig beheerd beveiligingsprogramma.",
@@ -78,7 +74,6 @@
   "svc4_b4": "Digitale fraudemonitoring",
   "svc4_b5": "Marktinteractie",
   "svc4_exp": "Beschermt <strong>merken, domeinen, bankkaart-BIN's en identiteiten van leidinggevenden</strong>. Gemiddelde phishing-verwijderingstijd: <strong>minder dan 1 dag</strong> (93% van de gevallen opgelost binnen 6 uur).",
-
   "uvp_label": "Waarom Cyberspot",
   "uvp_title": "Waarom Cyberspot Anders Is",
   "uvp_sub": "Drie mogelijkheden die geen enkele equivalente EU-provider onder één dak biedt.",
@@ -88,7 +83,6 @@
   "uvp2_body": "Heeft u al een intern beveiligingsteam? Wij dekken nachten, weekenden en feestdagen — de 128 uur per week wanneer aanvallers de voorkeur geven aan toeslaan. Naadloze overdracht, gedocumenteerde escalatie, nul hiaten.",
   "uvp3_title": "Concurrerende EU-prijsstelling",
   "uvp3_body": "SOC-diensten op ondernemingsniveau voor 30–50% minder dan gelijkwaardige lokale EU-aanbieders, zonder kwaliteitsverlies. Top 200 wereldwijd gerangschikt. Operationeel in dagen.",
-
   "how_label": "Implementatie",
   "how_title": "Operationeel in Minder dan 5 Weken",
   "how_sub": "Een gestructureerd, herhaalbaar onboardingproces verfijnd over tientallen EU-implementaties.",
@@ -104,7 +98,6 @@
   "step4_dur": "Altijd",
   "step4_title": "Continue Verbetering",
   "step4_desc": "Detectieafstemming, nieuwe dreigingsdekking, KPI-tracking en kwartaalreviews.",
-
   "cases_label": "Bewezen Resultaten",
   "cases_title": "Werkelijke Resultaten voor EU-organisaties",
   "cases_sub": "Bekijk hoe we meetbare beveiligingsverbeteringen hebben geleverd in financiën, bankwezen en detailhandel.",
@@ -120,7 +113,6 @@
   "case3_label": "Retail · XDR & Automatisering",
   "case3_title": "XDR-monitoring & Geautomatiseerde Respons",
   "case3_body": "Retailbedrijf dat cyberincidentrespons automatiseert. Ultra-hoog-risico gebruikersgedrag, netwerkaanvallen op domeincontrollers en browserkaping in vroeg stadium geïdentificeerd.",
-
   "comp_label": "Regelgevingsafstemming",
   "comp_title": "Gebouwd voor EU-regelgevingsnaleving",
   "comp1_title": "NIS2-richtlijn",
@@ -130,7 +122,6 @@
   "comp3_title": "AVG",
   "comp3_body": "Gereedheid voor gegevensbescherming en melding van inbreuken — 72-uur meldingscapaciteit en beveiligingscontroles voor gegevensverwerking.",
   "comp_note": "Wij helpen organisaties te voldoen aan de strikte technische vereisten van de huidige EU-regelgeving — zodat uw cybersecurity-investeringen rechtstreeks overeenkomen met nalevingsverplichtingen.",
-
   "about_label": "Wie Wij Zijn",
   "about_title": "Europese Essentiële Infrastructuur Beschermen",
   "about_body1": "Cyberspot is een in Roemenië gevestigde cybersecurity-reseller gespecialiseerd in beheerde SOC-diensten voor Essentiële en Belangrijke entiteiten onder de NIS2-richtlijn. Wij werken uitsluitend samen met Provision — een gecertificeerd SOC opgericht in 2019, gerangschikt in de Top 200 Security Operations Centers wereldwijd.",
@@ -142,7 +133,6 @@
   "stat4_label": "Certificeringen",
   "stat5_label": "Tijd tot Live",
   "stat6_label": "Dekking",
-
   "contact_label": "Gratis Beoordeling",
   "contact_title": "Ontvang uw GRATIS Kwetsbaarheidsanalyse",
   "contact_sub": "U ontvangt van ons een initiële kwetsbaarheidsanalyse zodat u weet waar u zich op moet richten en welke SOC-diensten u daadwerkelijk nodig heeft — zonder enige verplichting.",
@@ -167,7 +157,6 @@
   "form_error": "Er is iets misgegaan. Probeer het opnieuw.",
   "thankyou_title": "U bent ingeschreven!",
   "thankyou_body": "We nemen binnen 24 uur contact met u op om uw kwetsbaarheidsanalyse in te plannen.",
-
   "footer_tagline": "Europese Essentiële Infrastructuur Beschermen. 24/7 SOC-diensten afgestemd op NIS2, DORA en AVG.",
   "footer_services": "Diensten",
   "footer_company": "Bedrijf",
@@ -178,5 +167,9 @@
   "footer_blog": "Blog",
   "footer_copy": "© 2025 Cyberspot. Alle rechten voorbehouden.",
   "footer_privacy": "Privacybeleid",
-  "footer_cookie": "Cookiebeleid"
+  "footer_cookie": "Cookiebeleid",
+  "ranking_title": "Wereldwijd Gerangschikte SOC",
+  "ranking_body": "Cyberspot werkt uitsluitend samen met Provision, een Security Operations Center dat behoort tot de Top 250 Managed Security Service Providers ter wereld in de MSSP Alert Top 250 van 2025 — een onafhankelijke, door de sector erkende wereldwijde ranglijst.",
+  "ranking_verify": "Verifieer op MSSP Alert",
+  "ranking_note": "Opent de officiële MSSP Alert-ranglijst in een nieuw tabblad."
 }

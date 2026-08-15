@@ -5,7 +5,6 @@
   "nav_about": "Despre Noi",
   "nav_contact": "Contact",
   "nav_cta": "Rezervă o Evaluare Gratuită",
-
   "hero_eyebrow": "Top 200 SOC Global · Susținut de Provision",
   "hero_headline": "Echipa Ta Completă de Securitate Cibernetică 24/7. Operațională în Zile, Nu în Luni.",
   "hero_sub": "Cyberspot este un Centru de Operațiuni de Securitate european care furnizează servicii de nivel enterprise companiilor care navighează conformitatea NIS2, DORA și GDPR — la o fracțiune din costurile pieței locale.",
@@ -13,7 +12,6 @@
   "hero_cta2": "Explorați Serviciile",
   "hero_badge": "🏆 Top 200 SOC Global\nSusținut de Provision",
   "hero_scroll": "Derulați",
-
   "hotspot_label": "Găsiți-vă Profilul",
   "hotspot_title": "Care este Cyberspot-ul tău?",
   "hotspot_sub": "Fiecare organizație are un punct de plecare diferit. Spuneți-ne unde vă aflați — vă vom spune exact ce aveți nevoie.",
@@ -28,7 +26,6 @@
   "hotspot_p1_body": "Extindem acoperirea SOC la dispozitivele iOS și Android fără probleme — cei 40% din suprafața dvs. de atac pe care cei mai mulți furnizori îi ignoră complet.",
   "hotspot_p2_title": "Afacerea dvs. este unică — <span>spuneți-ne provocările dvs. cibernetice</span>",
   "hotspot_p2_body": "Vă vom ajuta cu cele mai bune sfaturi de la cei mai buni profesioniști. Fără pachete generice — o soluție adaptată profilului dvs. specific de risc.",
-
   "nis2_label": "Urgență Reglementară",
   "nis2_title": "Sunteți o Entitate Esențială sau Importantă NIS2?",
   "nis2_sub": "Directiva NIS2 extinde semnificativ domeniul de aplicare al cerințelor obligatorii de securitate cibernetică în întreaga UE. Dacă organizația dvs. operează într-un sector critic, probabil că sunteți deja obligat să implementați măsuri de securitate robuste — sau să vă confruntați cu sancțiuni severe.",
@@ -42,7 +39,6 @@
   "nis2_s4": "Transport — Aerian, Feroviar, Naval, Rutier",
   "nis2_s5": "Infrastructură Digitală — Cloud, DNS, Centre de Date",
   "nis2_s6": "Alimentație & Apă — Aprovizionare & Distribuție",
-
   "services_label": "Servicii SOC",
   "services_title": "Operațiuni de Securitate Complete",
   "services_sub": "Patru piloni principali de servicii, fiecare implementabil ca soluție independentă sau combinat într-un program de securitate complet gestionat.",
@@ -78,7 +74,6 @@
   "svc4_b4": "Monitorizarea fraudei digitale",
   "svc4_b5": "Interacțiune pe piețe",
   "svc4_exp": "Protejează <strong>mărci, domenii, BIN-uri de carduri bancare și identitățile executivilor</strong>. Timp mediu de eliminare a phishing-ului: <strong>sub 1 zi</strong> (93% din cazuri rezolvate în mai puțin de 6 ore).",
-
   "uvp_label": "De Ce Cyberspot",
   "uvp_title": "Ce Ne Diferențiază",
   "uvp_sub": "Trei capabilități pe care niciun furnizor UE echivalent nu le oferă sub același acoperiș.",
@@ -88,7 +83,6 @@
   "uvp2_body": "Aveți deja o echipă internă de securitate? Acoperim nopțile, weekendurile și sărbătorile — cele 128 de ore pe săptămână când atacatorii preferă să acționeze. Predare fără probleme, escaladare documentată, zero lacune.",
   "uvp3_title": "Prețuri Competitive în UE",
   "uvp3_body": "Servicii SOC de nivel enterprise cu 30–50% mai puțin decât furnizorii UE locali echivalenți, fără compromisuri de calitate. Top 200 global. Operațional în zile.",
-
   "how_label": "Implementare",
   "how_title": "Operațional în Mai Puțin de 5 Săptămâni",
   "how_sub": "Un proces de onboarding structurat și repetabil, rafinat în zeci de implementări UE.",
@@ -104,7 +98,6 @@
   "step4_dur": "Permanent",
   "step4_title": "Îmbunătățire Continuă",
   "step4_desc": "Ajustarea detectiei, noi acoperiri de amenințări, urmărirea KPI și revizuiri trimestriale.",
-
   "cases_label": "Rezultate Dovedite",
   "cases_title": "Rezultate Reale pentru Organizații UE",
   "cases_sub": "Vedeți cum am livrat îmbunătățiri măsurabile de securitate în finanțe, servicii bancare și retail.",
@@ -120,7 +113,6 @@
   "case3_label": "Retail · XDR & Automatizare",
   "case3_title": "Monitorizare XDR & Răspuns Automatizat",
   "case3_body": "Companie de retail care automatizează răspunsul la incidente cibernetice. Comportament utilizator cu risc ultra-ridicat, atacuri la nivel de rețea vizând Controlere de Domeniu și deturnare de browser în faze timpurii identificate.",
-
   "comp_label": "Aliniere Regulatorie",
   "comp_title": "Construit pentru Conformitate Regulatorie UE",
   "comp1_title": "Directiva NIS2",
@@ -130,7 +122,6 @@
   "comp3_title": "GDPR",
   "comp3_body": "Pregătire pentru protecția datelor și notificarea breșelor — capacitate de notificare în 72 de ore și controale de securitate a prelucrării datelor.",
   "comp_note": "Ajutăm organizațiile să îndeplinească cerințele tehnice stricte definite de reglementările UE actuale — astfel încât investițiile dvs. în securitate cibernetică să corespundă direct obligațiilor de conformitate.",
-
   "about_label": "Cine Suntem",
   "about_title": "Protejând Infrastructura Esențială a Europei",
   "about_body1": "Cyberspot este un reseller de securitate cibernetică cu sediul în România, specializat în servicii SOC gestionate pentru entitățile Esențiale și Importante sub Directiva NIS2. Colaborăm exclusiv cu Provision — un SOC certificat înființat în 2019, clasat în Top 200 Centre de Operațiuni de Securitate la nivel mondial.",
@@ -142,7 +133,6 @@
   "stat4_label": "Certificări",
   "stat5_label": "Timp până la Lansare",
   "stat6_label": "Acoperire",
-
   "contact_label": "Evaluare Gratuită",
   "contact_title": "Obțineți Evaluarea GRATUITĂ a Vulnerabilităților",
   "contact_sub": "Veți obține de la noi o evaluare inițială a vulnerabilităților pentru a ști unde să vă concentrați și ce servicii SOC aveți cu adevărat nevoie — fără niciun angajament.",
@@ -167,7 +157,6 @@
   "form_error": "Ceva a mers greșit. Vă rugăm să încercați din nou.",
   "thankyou_title": "Ați fost înregistrat!",
   "thankyou_body": "Vă vom contacta în 24 de ore pentru a programa evaluarea vulnerabilităților.",
-
   "footer_tagline": "Protejând Infrastructura Esențială a Europei. Servicii SOC 24/7 aliniate cu NIS2, DORA și GDPR.",
   "footer_services": "Servicii",
   "footer_company": "Companie",
@@ -178,5 +167,9 @@
   "footer_blog": "Blog",
   "footer_copy": "© 2025 Cyberspot. Toate drepturile rezervate.",
   "footer_privacy": "Politică de Confidențialitate",
-  "footer_cookie": "Politică de Cookie-uri"
+  "footer_cookie": "Politică de Cookie-uri",
+  "ranking_title": "SOC Clasat Global",
+  "ranking_body": "Cyberspot colaborează exclusiv cu Provision, un Centru de Operațiuni de Securitate clasat printre primii 250 de furnizori de servicii de securitate gestionate din lume în clasamentul MSSP Alert Top 250 din 2025 — un clasament global independent și recunoscut în industrie.",
+  "ranking_verify": "Verificați pe MSSP Alert",
+  "ranking_note": "Deschide clasamentul oficial MSSP Alert într-o filă nouă."
 }

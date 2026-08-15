@@ -5,7 +5,6 @@
   "nav_about": "À Propos",
   "nav_contact": "Contact",
   "nav_cta": "Réserver une Évaluation Gratuite",
-
   "hero_eyebrow": "Top 200 SOC Mondial · Propulsé par Provision",
   "hero_headline": "Votre Équipe Cybersécurité 24/7 Complète. Opérationnelle en Jours, Pas en Mois.",
   "hero_sub": "Cyberspot est un Centre d'Opérations de Sécurité européen qui fournit des services de niveau entreprise aux entreprises naviguant dans la conformité NIS2, DORA et RGPD — à une fraction des coûts du marché local.",
@@ -13,7 +12,6 @@
   "hero_cta2": "Découvrir nos Services",
   "hero_badge": "🏆 Top 200 SOC Mondial\nPropulsé par Provision",
   "hero_scroll": "Défiler",
-
   "hotspot_label": "Trouvez Votre Profil",
   "hotspot_title": "Quel est votre Cyberspot idéal ?",
   "hotspot_sub": "Chaque organisation a un point de départ différent. Dites-nous où vous en êtes — nous vous dirons exactement ce dont vous avez besoin.",
@@ -28,7 +26,6 @@
   "hotspot_p1_body": "Nous étendons la couverture SOC aux appareils iOS et Android — les 40% de votre surface d'attaque que la plupart des fournisseurs ignorent entièrement.",
   "hotspot_p2_title": "Votre entreprise est unique — <span>partagez-nous vos défis cyber</span>",
   "hotspot_p2_body": "Nous vous aiderons avec les meilleurs conseils des meilleurs professionnels. Pas de solutions génériques — une solution adaptée à votre profil de risque spécifique.",
-
   "nis2_label": "Urgence Réglementaire",
   "nis2_title": "Êtes-vous une Entité Essentielle ou Importante sous NIS2 ?",
   "nis2_sub": "La directive NIS2 élargit considérablement le champ des exigences obligatoires en matière de cybersécurité dans toute l'UE. Si votre organisation opère dans un secteur critique, vous êtes probablement déjà tenu de mettre en œuvre des mesures de sécurité robustes — ou de faire face à de lourdes sanctions.",
@@ -42,7 +39,6 @@
   "nis2_s4": "Transport — Aérien, Ferroviaire, Maritime, Routier",
   "nis2_s5": "Infrastructure Numérique — Cloud, DNS, Centres de Données",
   "nis2_s6": "Alimentation & Eau — Approvisionnement & Distribution",
-
   "services_label": "Services SOC",
   "services_title": "Opérations de Sécurité Complètes",
   "services_sub": "Quatre piliers de services, chacun déployable en solution autonome ou combiné en programme de sécurité entièrement géré.",
@@ -78,7 +74,6 @@
   "svc4_b4": "Surveillance de la fraude numérique",
   "svc4_b5": "Interaction sur les marchés",
   "svc4_exp": "Protège les <strong>marques, domaines, BIN de cartes bancaires et identités des dirigeants</strong>. Temps moyen de suppression du phishing : <strong>moins d'un jour</strong> (93% des cas résolus en moins de 6 heures).",
-
   "uvp_label": "Pourquoi Cyberspot",
   "uvp_title": "Ce Qui Nous Différencie",
   "uvp_sub": "Trois capacités qu'aucun fournisseur UE équivalent n'offre sous un même toit.",
@@ -88,7 +83,6 @@
   "uvp2_body": "Vous avez déjà une équipe de sécurité interne ? Nous couvrons les nuits, week-ends et jours fériés — les 128 heures par semaine où les attaquants préfèrent frapper. Passation fluide, escalade documentée, zéro lacune.",
   "uvp3_title": "Tarification Compétitive en UE",
   "uvp3_body": "Services SOC de niveau entreprise à 30–50% de moins que les fournisseurs UE locaux équivalents, sans compromettre la qualité. Top 200 mondial. Opérationnel en jours.",
-
   "how_label": "Mise en Œuvre",
   "how_title": "Opérationnel en Moins de 5 Semaines",
   "how_sub": "Un processus d'intégration structuré et reproductible, affiné sur des dizaines de déploiements en UE.",
@@ -104,7 +98,6 @@
   "step4_dur": "En Permanence",
   "step4_title": "Amélioration Continue",
   "step4_desc": "Ajustement de la détection, nouvelles couvertures de menaces, suivi des KPI et revues trimestrielles.",
-
   "cases_label": "Résultats Prouvés",
   "cases_title": "Résultats Réels pour les Organisations UE",
   "cases_sub": "Découvrez comment nous avons apporté des améliorations de sécurité mesurables dans la finance, la banque et le commerce de détail.",
@@ -120,7 +113,6 @@
   "case3_label": "Commerce · XDR & Automatisation",
   "case3_title": "Surveillance XDR & Réponse Automatisée",
   "case3_body": "Entreprise de commerce automatisant la réponse aux incidents cyber. Comportement utilisateur ultra-risqué, attaques réseau ciblant les contrôleurs de domaine et détournement de navigateur en phase précoce identifiés.",
-
   "comp_label": "Alignement Réglementaire",
   "comp_title": "Conçu pour la Conformité Réglementaire UE",
   "comp1_title": "Directive NIS2",
@@ -130,7 +122,6 @@
   "comp3_title": "RGPD",
   "comp3_body": "Préparation à la protection des données et à la notification des violations — capacité de notification en 72 heures et contrôles de sécurité du traitement des données.",
   "comp_note": "Nous aidons les organisations à satisfaire aux exigences techniques strictes définies par la réglementation UE en vigueur — afin que vos investissements en cybersécurité correspondent directement aux obligations de conformité.",
-
   "about_label": "Qui Sommes-Nous",
   "about_title": "Protéger les Infrastructures Essentielles de l'Europe",
   "about_body1": "Cyberspot est un revendeur de cybersécurité basé en Roumanie, spécialisé dans les services SOC gérés pour les entités Essentielles et Importantes sous la directive NIS2. Nous collaborons exclusivement avec Provision — un SOC certifié fondé en 2019, classé dans le Top 200 des Centres d'Opérations de Sécurité mondiaux.",
@@ -142,7 +133,6 @@
   "stat4_label": "Certifications",
   "stat5_label": "Délai de Mise en Service",
   "stat6_label": "Couverture",
-
   "contact_label": "Évaluation Gratuite",
   "contact_title": "Obtenez votre Évaluation de Vulnérabilité GRATUITE",
   "contact_sub": "Vous obtiendrez de notre part une évaluation initiale des vulnérabilités afin de savoir où concentrer vos efforts et quels services SOC vous avez réellement besoin — sans engagement requis.",
@@ -167,7 +157,6 @@
   "form_error": "Une erreur s'est produite. Veuillez réessayer.",
   "thankyou_title": "Vous êtes enregistré !",
   "thankyou_body": "Nous vous contacterons dans les 24 heures pour planifier votre évaluation des vulnérabilités.",
-
   "footer_tagline": "Protéger les Infrastructures Essentielles de l'Europe. Services SOC 24/7 alignés sur NIS2, DORA et RGPD.",
   "footer_services": "Services",
   "footer_company": "Entreprise",
@@ -178,5 +167,9 @@
   "footer_blog": "Blog",
   "footer_copy": "© 2025 Cyberspot. Tous droits réservés.",
   "footer_privacy": "Politique de Confidentialité",
-  "footer_cookie": "Politique de Cookies"
+  "footer_cookie": "Politique de Cookies",
+  "ranking_title": "SOC Classé Mondialement",
+  "ranking_body": "Cyberspot collabore exclusivement avec Provision, un Centre d'Opérations de Sécurité classé parmi les 250 meilleurs fournisseurs de services de sécurité gérés au monde dans le classement MSSP Alert Top 250 de 2025 — un classement mondial indépendant et reconnu par l'industrie.",
+  "ranking_verify": "Vérifier sur MSSP Alert",
+  "ranking_note": "Ouvre le classement officiel MSSP Alert dans un nouvel onglet."
 }

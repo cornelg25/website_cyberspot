@@ -5,7 +5,6 @@
   "nav_about": "About",
   "nav_contact": "Contact",
   "nav_cta": "Book a Free Assessment",
-
   "hero_eyebrow": "Top 200 Global SOC · Powered by Provision",
   "hero_headline": "Your Full 24/7 Cybersecurity Team. Ready in Days, Not Months.",
   "hero_sub": "Cyberspot is an EU Security Operations Center delivering enterprise-grade services to companies navigating NIS2, DORA and GDPR compliance — at a fraction of local market costs.",
@@ -13,7 +12,6 @@
   "hero_cta2": "Explore Services",
   "hero_badge": "🏆 Top 200 Global SOC\nPowered by Provision",
   "hero_scroll": "Scroll",
-
   "hotspot_label": "Find Your Fit",
   "hotspot_title": "What's your hot Cyberspot?",
   "hotspot_sub": "Every organisation has a different starting point. Tell us where you are — we'll tell you exactly what you need.",
@@ -28,7 +26,6 @@
   "hotspot_p1_body": "We extend SOC coverage to iOS and Android devices seamlessly — the 40% of your attack surface most providers ignore entirely.",
   "hotspot_p2_title": "Your business is unique — <span>tell us your cyber challenges</span>",
   "hotspot_p2_body": "We'll help with the best advice from the best professionals. No generic packages — a solution shaped around your specific risk profile.",
-
   "nis2_label": "Regulatory Urgency",
   "nis2_title": "Are You a NIS2 Essential or Important Entity?",
   "nis2_sub": "The NIS2 Directive dramatically expands the scope of mandatory cybersecurity requirements across the EU. If your organisation operates in a critical sector, you are likely already obligated to implement robust security measures — or face severe penalties.",
@@ -42,7 +39,6 @@
   "nis2_s4": "Transport — Air, Rail, Water, Road",
   "nis2_s5": "Digital Infrastructure — Cloud, DNS, Data Centres",
   "nis2_s6": "Food & Water — Supply & Distribution",
-
   "services_label": "SOC Services",
   "services_title": "Comprehensive Security Operations",
   "services_sub": "Four core service pillars, each deployable as a standalone solution or combined into a fully managed security programme.",
@@ -78,7 +74,6 @@
   "svc4_b4": "Digital fraud monitoring",
   "svc4_b5": "Market interaction",
   "svc4_exp": "Protects <strong>brands, domains, banking card BINs and executive identities</strong>. Average phishing takedown time: <strong>under 1 day</strong> (93% of cases resolved within 6 hours).",
-
   "uvp_label": "Why Cyberspot",
   "uvp_title": "Why Cyberspot Is Different",
   "uvp_sub": "Three capabilities that no equivalent EU provider offers under one roof.",
@@ -88,7 +83,6 @@
   "uvp2_body": "Already have an internal security team? We cover nights, weekends and holidays — the 128 hours per week when attackers prefer to strike. Seamless handoff, documented escalation, zero gap.",
   "uvp3_title": "EU-Competitive Pricing",
   "uvp3_body": "Enterprise-grade SOC services at 30–50% less than equivalent local EU providers, without compromising quality. Top 200 globally ranked. Operational in days.",
-
   "how_label": "Implementation",
   "how_title": "Up and Running in Under 5 Weeks",
   "how_sub": "A structured, repeatable onboarding process refined across dozens of EU deployments.",
@@ -104,7 +98,6 @@
   "step4_dur": "Always",
   "step4_title": "Continuous Improvement",
   "step4_desc": "Detection tuning, new threat coverage, KPI tracking and quarterly business reviews.",
-
   "cases_label": "Proven Results",
   "cases_title": "Real Outcomes for EU Organisations",
   "cases_sub": "See how we've delivered measurable security improvements across finance, banking and retail.",
@@ -120,7 +113,6 @@
   "case3_label": "Retail · XDR & Automation",
   "case3_title": "XDR Monitoring & Automated Response",
   "case3_body": "Retail company automating cyber incident response. Identified ultra-high-risk user behaviour, network-level attacks targeting Domain Controllers, and browser hijacking in early stages.",
-
   "comp_label": "Regulatory Alignment",
   "comp_title": "Built for EU Regulatory Compliance",
   "comp1_title": "NIS2 Directive",
@@ -130,7 +122,6 @@
   "comp3_title": "GDPR",
   "comp3_body": "Data protection and breach notification readiness — 72-hour notification capability and data processing security controls.",
   "comp_note": "We help organisations fulfil strict technical requirements defined by current EU regulations — so your cybersecurity investments directly map to compliance obligations and auditable evidence.",
-
   "about_label": "Who We Are",
   "about_title": "Protecting Europe's Essential Infrastructure",
   "about_body1": "Cyberspot is a Romanian-based cybersecurity reseller specialising in managed SOC services for Essential and Important entities under the NIS2 Directive. We partner exclusively with Provision — a certified SOC established in 2019, ranked in the Top 200 Security Operations Centers globally.",
@@ -142,7 +133,6 @@
   "stat4_label": "Certifications",
   "stat5_label": "Time to Live",
   "stat6_label": "Coverage",
-
   "contact_label": "Free Assessment",
   "contact_title": "Get your FREE Vulnerability Assessment",
   "contact_sub": "You will obtain from us an initial vulnerability assessment so you know where to focus and what SOC services you actually need — with no commitment required.",
@@ -167,7 +157,6 @@
   "form_error": "Something went wrong. Please try again.",
   "thankyou_title": "You're booked in!",
   "thankyou_body": "We'll be in touch within 24 hours to schedule your vulnerability assessment.",
-
   "footer_tagline": "Protecting Europe's Essential Infrastructure. 24/7 SOC services aligned with NIS2, DORA and GDPR.",
   "footer_services": "Services",
   "footer_company": "Company",
@@ -178,5 +167,9 @@
   "footer_blog": "Blog",
   "footer_copy": "© 2025 Cyberspot. All rights reserved.",
   "footer_privacy": "Privacy Policy",
-  "footer_cookie": "Cookie Policy"
+  "footer_cookie": "Cookie Policy",
+  "ranking_title": "Globally Ranked SOC",
+  "ranking_body": "Cyberspot partners exclusively with Provision, a Security Operations Center ranked among the world's Top 250 Managed Security Service Providers in the 2025 MSSP Alert Top 250 — an independent, industry-recognised global ranking.",
+  "ranking_verify": "Verify on MSSP Alert",
+  "ranking_note": "Opens the official MSSP Alert ranking in a new tab."
 }

@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cyberspot — Your 24/7 EU Security Operations Center</title>
-  <meta name="description" content="Cyberspot delivers enterprise-grade SOC services to EU companies navigating NIS2, DORA and GDPR compliance — at a fraction of local market costs. 24/7 monitoring, ranked #106 Top MSSPs globally." />
+  <meta name="description" content="Cyberspot delivers enterprise-grade SOC services to EU companies navigating NIS2, DORA and GDPR compliance — at a fraction of local market costs. 24/7 monitoring, Top 200 globally ranked." />
   <meta property="og:title" content="Cyberspot — Your 24/7 EU Security Operations Center" />
   <meta property="og:description" content="Enterprise-grade SOC services for EU companies. NIS2, DORA & GDPR compliant. Operational in under 5 weeks." />
   <meta property="og:image" content="https://cyberspot.eu/assets/images/logo.png" />
@@ -12,7 +12,7 @@
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Cyberspot — Your 24/7 EU Security Operations Center" />
-  <meta name="twitter:description" content="Enterprise SOC. NIS2/DORA/GDPR aligned. #106 Top 250 MSSPs globally. Operational in weeks." />
+  <meta name="twitter:description" content="Enterprise SOC. NIS2/DORA/GDPR aligned. Top 200 globally ranked. Operational in weeks." />
 
   <!-- Favicon (SVG inline) -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%230D0D1A' rx='6'/><path d='M16 4 L26 9 L26 16 C26 21.5 21.5 26.3 16 28 C10.5 26.3 6 21.5 6 16 L6 9 Z' fill='%23C0392B'/><circle cx='16' cy='16' r='3.5' fill='%230D0D1A'/></svg>" />
@@ -99,7 +99,7 @@
   <div class="container">
     <div class="hero-content">
 
-      <div class="hero-eyebrow reveal" data-i18n="hero_eyebrow">Top 250 Global SOC · Powered by Provision</div>
+      <div class="hero-eyebrow reveal" data-i18n="hero_eyebrow">Top 200 Global SOC · Powered by Provision</div>
 
       <h1 id="hero-headline" aria-label="Your Full 24/7 Cybersecurity Team. Ready in Days, Not Months."></h1>
 
@@ -124,10 +124,33 @@
   </div>
 
   <!-- Floating badge -->
-  <div class="hero-badge" aria-label="Recognition badge">
-    🏆 Powered by Provision<br/>Ranked #106 Global MSSPs
-  </div>
+  <button class="hero-badge" id="ranking-badge" aria-label="View Provision ranking details" aria-haspopup="dialog">
+    🏆 Top 200 Global SOC<br/>Powered by Provision
+  </button>
 </section>
+
+<!-- ============================================================
+     RANKING MODAL
+     ============================================================ -->
+<div class="ranking-modal-overlay" id="ranking-modal" role="dialog" aria-modal="true" aria-labelledby="ranking-modal-title" aria-hidden="true">
+  <div class="ranking-modal">
+    <button class="ranking-modal-close" id="ranking-modal-close" aria-label="Close dialog">
+      <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+    </button>
+    <div class="ranking-modal-icon" aria-hidden="true">🏆</div>
+    <h3 class="ranking-modal-title" id="ranking-modal-title" data-i18n="ranking_title">Globally Ranked SOC</h3>
+    <p class="ranking-modal-body" data-i18n="ranking_body">
+      Cyberspot partners exclusively with Provision, a Security Operations Center ranked among the world's
+      Top 250 Managed Security Service Providers in the 2025 MSSP Alert Top 250 — an independent, industry-recognised
+      global ranking.
+    </p>
+    <a href="https://www.msspalert.com/top-250-2025?page=11" target="_blank" rel="noopener noreferrer" class="btn btn-primary ranking-modal-btn">
+      <span data-i18n="ranking_verify">Verify on MSSP Alert</span>
+      <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+    </a>
+    <p class="ranking-modal-note" data-i18n="ranking_note">Opens the official MSSP Alert ranking in a new tab.</p>
+  </div>
+</div>
 
 <!-- ============================================================
      TRUST BAR
@@ -135,7 +158,7 @@
 <section id="trust-bar" aria-label="Trust indicators">
   <div class="ticker-track" aria-hidden="true">
     <!-- repeated twice for seamless loop -->
-    <span class="ticker-item">Top 250 Global SOC Centre</span>
+    <span class="ticker-item">Top 200 Global SOC Centre</span>
     <span class="ticker-item">Est. 2019</span>
     <span class="ticker-item">24/7/365 Monitoring</span>
     <span class="ticker-item">NIS2 Compliant</span>
@@ -145,7 +168,7 @@
     <span class="ticker-item">&lt;8% False Positive Rate</span>
     <span class="ticker-item">77% Faster Threat Detection</span>
     <span class="ticker-item">93% Reduction in False Negatives</span>
-    <span class="ticker-item">Top 250 Global SOC Centre</span>
+    <span class="ticker-item">Top 200 Global SOC Centre</span>
     <span class="ticker-item">Est. 2019</span>
     <span class="ticker-item">24/7/365 Monitoring</span>
     <span class="ticker-item">NIS2 Compliant</span>
@@ -508,7 +531,7 @@
         <h3 data-i18n="uvp3_title">EU-Competitive Pricing</h3>
         <p>
           Enterprise-grade SOC services at 30–50% less than equivalent local EU providers,
-          without compromising quality. Ranked #106 Top Global MSSPs. Operational in weeks.
+          without compromising quality. Top 200 globally ranked. Operational in weeks.
         </p>
       </div>
 
@@ -737,7 +760,7 @@
         <p class="section-sub">
           Cyberspot is a Romanian-based cybersecurity reseller specialising in managed SOC services for
           Essential and Important entities under the NIS2 Directive. We partner exclusively with
-          Provision — a certified SOC established in 2019, ranked #106 in the Top 250 Security
+          Provision — a certified SOC established in 2019, ranked in the Top 200 Security
           Operations Centers globally.
         </p>
         <p class="section-sub" style="margin-top:1rem;">
@@ -764,7 +787,7 @@
           <div class="stat-desc">Year Founded</div>
         </div>
         <div class="stat-card">
-          <div class="big-num">Top 250</div>
+          <div class="big-num">Top 200</div>
           <div class="stat-desc">Global SOC Rank</div>
         </div>
         <div class="stat-card">
