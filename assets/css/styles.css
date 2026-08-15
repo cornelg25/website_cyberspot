@@ -1809,3 +1809,86 @@ footer::before {
   margin-top: 0.85rem;
   opacity: 0.8;
 }
+
+/* ============================================================
+   FOOTER — contact list + legal details
+   ============================================================ */
+.footer-contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-bottom: 1.1rem;
+}
+.footer-contact-list li a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.62);
+  transition: color var(--transition);
+}
+.footer-contact-list li a:hover { color: #fff; }
+.footer-contact-list li a i {
+  width: 30px; height: 30px;
+  border-radius: var(--radius);
+  background: rgba(193,39,45,0.1);
+  border: 1px solid rgba(193,39,45,0.22);
+  color: var(--primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.82rem;
+  flex-shrink: 0;
+  transition: all var(--transition);
+}
+.footer-contact-list li a:hover i {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+
+/* Legal company details bar */
+.footer-legal {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  margin-top: 2rem;
+  padding: 1rem 1.25rem;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: var(--radius-lg);
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.5);
+  position: relative;
+}
+.footer-legal i {
+  color: var(--primary);
+  font-size: 0.9rem;
+  margin-top: 0.15rem;
+  flex-shrink: 0;
+}
+.footer-legal strong { color: rgba(255,255,255,0.8); font-weight: 700; }
+
+@media (max-width: 600px) {
+  .footer-legal { flex-direction: column; gap: 0.4rem; text-align: left; }
+}
+
+/* Simple footer contact row (landing + policy pages) */
+.footer-simple-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+.footer-simple-contact a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.62);
+  transition: color var(--transition);
+}
+.footer-simple-contact a:hover { color: #fff; }
+.footer-simple-contact a i { color: var(--primary); font-size: 0.9rem; }
