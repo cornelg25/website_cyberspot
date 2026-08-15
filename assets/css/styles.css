@@ -351,6 +351,7 @@ button { cursor: pointer; font-family: var(--font); border: none; }
   padding: 0.65rem 1rem;
   font-size: 0.78rem;
   font-weight: 600;
+  color: #fff;
   max-width: 220px;
   text-align: center;
   line-height: 1.4;
